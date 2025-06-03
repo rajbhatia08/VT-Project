@@ -1,0 +1,126 @@
+
+body {
+    background-color: lightSkyBlue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden; 
+}
+  .page-header {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .page-header h1 {
+    font-size: 2em;
+    color: darkslateblue;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .form-container {
+    background-color: rgb(163, 212, 243);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 800px; 
+    height: 70vh;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+  }
+  .para{
+    text-align: center;
+    font-size: 1em;
+  }
+  .form-container::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .form-container {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+  .form-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-question {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+  .form-question label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .form-question input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .result {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .inst{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+  }
+  span{
+    font-size: 20px;
+    color: rgb(76, 72, 72);
+    background-color: rgb(198, 224, 240);
+  }
